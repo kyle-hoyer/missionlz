@@ -163,7 +163,8 @@
       },
       "allowedValues": [
         "Standard",
-        "Premium"
+        "Premium",
+        "Basic"
       ]
     },
     "firewallThreatIntelMode": {
