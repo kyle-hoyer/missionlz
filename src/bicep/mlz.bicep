@@ -93,6 +93,7 @@ param sharedServicesSubnetAddressPrefix string = '10.0.120.0/27'
 @allowed([
   'Standard'
   'Premium'
+  'Basic'
 ])
 @description('[Standard/Premium] The SKU for Azure Firewall. It defaults to "Premium".')
 param firewallSkuTier string = 'Premium'
