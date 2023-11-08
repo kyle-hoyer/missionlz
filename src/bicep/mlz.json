@@ -159,7 +159,7 @@
       "type": "string",
       "defaultValue": "Premium",
       "metadata": {
-        "description": "[Standard/Premium] The SKU for Azure Firewall. It defaults to \"Premium\"."
+        "description": "[Standard/Premium/Basic] The SKU for Azure Firewall. It defaults to \"Premium\"."
       },
       "allowedValues": [
         "Standard",
