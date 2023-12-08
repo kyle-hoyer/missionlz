@@ -2457,7 +2457,8 @@
                       "type": "string",
                       "allowedValues": [
                         "Standard",
-                        "Premium"
+                        "Premium",
+                        "Basic"
                       ]
                     },
                     "threatIntelMode": {
