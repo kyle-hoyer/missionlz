@@ -157,7 +157,7 @@
     },
     "firewallSkuTier": {
       "type": "string",
-      "defaultValue": "Premium",
+      "defaultValue": "Basic",
       "metadata": {
         "description": "[Standard/Premium/Basic] The SKU for Azure Firewall. It defaults to \"Premium\"."
       },
