@@ -57,7 +57,7 @@ resource firewallPolicy 'Microsoft.Network/firewallPolicies@2021-02-01' = {
   tags: tags
   properties: {
     threatIntelMode: threatIntelMode
-    intrusionDetection: ((skuTier == 'Premium') ? intrusionDetectionObject : null)
+    intrusionDetection: ((skuTier == 'Basic') ? intrusionDetectionObject : null)
     sku: {
       tier: skuTier
     }
